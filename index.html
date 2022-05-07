@@ -1,0 +1,18 @@
+<script>
+    // An array of URL's
+    var randURLs = [
+        "404-makes-bear-sad",
+        "astronaut",
+        "code",
+        "hacker",
+        "monkey",
+        "space"
+    ];
+
+    // get a random number between 0 and 499
+    //
+    var randNum = Math.floor(Math.random() * randURLs.length);
+    //window.location.assign(window.location.hostname + '/404/' + randURLs[randNum]);
+    window.location.replace(location.protocol + '//' + window.location.host + '/404/' + randURLs[randNum]);
+</script>
+
