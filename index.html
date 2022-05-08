@@ -12,7 +12,9 @@
     // get a random number between 0 and 499
     //
     var randNum = Math.floor(Math.random() * randURLs.length);
-    //window.location.assign(window.location.hostname + '/404/' + randURLs[randNum]);
-    window.location.replace(location.protocol + '//' + window.location.host + '/404/' + randURLs[randNum]);
+    // window.location.assign(window.location.hostname + '/404/' + randURLs[randNum]);
+    // window.location.replace(location.protocol + '//' + window.location.host + '/404/' + randURLs[randNum]);
+    // window.location.replace(location.protocol + '//' + window.location.host + '/' + randURLs[randNum]);
+    // window.location.href = window.location.origin + '/' + randURLs[randNum];
+    window.location.assign('/' + randURLs[randNum] + '/');
 </script>
-

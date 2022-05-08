@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  404-page:
+    image: duchenpaul/404-page:latest
+    container_name: 404-page
+    build: .
+    ports:
+      - "10081:8080"
